@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: GH-Lab1-YL
+  host: GH-Lab1-YL
+  disk_quota: 1024M
+  services:
+  - GH-Lab1-YL-cloudantNoSQLDB
